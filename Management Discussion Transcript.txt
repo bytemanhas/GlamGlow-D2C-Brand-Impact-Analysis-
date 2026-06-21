@@ -1,0 +1,159 @@
+Management Discussion:
+
+CEO: Mr. GI, welcome and thank you for accepting our application to develop a BI Solution using Power BI. How do you want to start?
+
+GI: How about we start by addressing your immediate challenges Mr. CEO?
+
+CEO: Let me start with the distributed information sets we work with. We receive data from various sources, being our internal servers where all out direct to customer sales are generated through our website. Then we have sales coming in from Nile and DCart marketplace platforms. Both have different formats and fashion in which my team receives the information. To add to the data challenges, on Dcart we have sub channels i.e we do both scheduled deliveries through their market place platform as well as Q-comm transactions with their DCartQuick App.
+
+GI: How is your team currently performing the analysis and sending you the report?
+
+CEO: Currently, i get different reports mostly excels each month for each of the channel and sub-channel heads. However, my desired state is to see a complete picture of my sales, product and category performance at one go.
+
+CEO: To add, my reporting team is also unable to give me the data on demand. Since, it prepared manually, there is always a 5 to 6 days lag. I would like to have the solution that help me get at least near time analysis?
+
+GI: What do you mean by near-time analysis?
+
+CEO: I understand that with Power BI one can have all information consolidated and the business logics built for repeated used or so.. Once done, my team can add new raw datasets and focus purely on analysis.
+
+GI: Yes, you that's correct. Power BI has can help you address this concern.
+
+CEO: From the solution I expect that if any new data/ datasets is added from any channel, we need not make any code changes. I want it to pick up new information automatically...... 
+
+(short pause)... 
+
+You see my team does not have Power BI expertise. I want them to focus on using the report and not making it daily!
+
+GI: That's a fair ask..
+
+GI: Can you share some details with us on what insights related challenges are you facing when it comes to monitoring your sales efforts?
+
+CEO: Well... Yes.. Yes.... 
+
+CEO: We have about 50ish... products that we sell via 3 primary channels and 1 sub channel. These products can be classified into 5 categories..  While i have at a category or individual channel performance. I would like to see kind of segment analysis that give me a fair view of which of my categories and product groups are growing and across what channels. 
+
+CEO: Is it possible to build a growth metric around product x channel ang growth segments..
+
+GI: Yes it is. Is there any representation in mind?
+
+CEO: Not particularly, but, I would like to see what you come up with... However, i would not want to read a data dump of tables... Can the insight be carved our in a manner that is dynamic yet give me quick read of the business?
+
+GI: Yes...
+
+GI: Is there any analysis that your team is facing challenged and is burning issue??
+
+CEO: Ohh.. yes.. yes... there are a few... that i would like to review on a regular basis.
+
+GI: What are those?
+
+CEO: Well there are 3 core insights that is top of my mind.
+
+CEO: Let me invite my CFO and CMO for these.. 
+
+CEO: A quick call to his receptionist and a few moment later...
+
+CEO: GI, let me introduce you to Mr. CFO and Mr. CMO both are part of our founding team. Mr. CFO heads or finance and commercial department and Mr. CMO is responsible both for sales and marketing functions.
+
+GI: Mr. CFO, Mr. CMO it is a pleasure to me you both... I was discussion with Mr. CEO about the 3 top priority insights apart from the sales reporting..
+
+CEO: Let me put some context on the first problem... Which is to do with Costs and Gross Profits. Mr. CFO can detail more.. However, let me put out the desired state with our Cost and Margin insights.
+
+CEO: I want us to be able to see our sales, costs and gross margins together... What i get at the moment is the overall sales and COGS / Margins from our PnL. This robs me of the hidden details at category, product or channel level.
+
+GI: Do you not get the cost by product? Could you help me better understand? 
+
+CFO: Let me pitch in here. We get all of our products contract manufactured through our vendor partners. With whom we have a rate contract agreements in place. However, these agreements have different start and end dates with cost prices information for products between the agreed period. The product cost prices varies for each products basis the agreement period. The cost prices can vary between the agreement period.
+
+GI: I see, could you walk us through the business rational and the process currently being used?
+
+CFO: Well, you see we have a very unique business model where rather than an upfront buy of stocks we have signed up dedicated vendor to manufacture and supply directly with whom we have a supply rate agreement. Kind of like JIT model but in BPC. The way we compute the cost is by applying unit rate x cost prices as per the agreed periodic rates. Say that we sold x units of GlowGlam Rose Toner Mist on 2-Jan-25. Then, the new Power BI model should pick up the Unit Cost Rate of the products from the agreement doc Salara_1014 which was in force from 1-Jan-25 to 31-Mar-25. 
+
+GI: So how many agreement are there?
+
+CFO: Since the start of this year, we have had 4 agreements each having different negotiated unit costs for all products.
+
+CEO: We have a trade term of 60 days with our contract manufacturer. Additionally, we also have volume discount. We get a 10% additional discount on our unit rate by products if the products monthly sales volume exceeds 150 units.
+
+GI: Is the threshold of 150 units per month fixed?
+
+CFO: Thanks for asking it. While we have been working with 150 for now. Our vendor are negotiating on a monthly threshold. Could you solution build for to add variable threasholds?
+
+CFO: We are required to settle the cost obligations net of volume discount on monthly basis with our vendor. However, it take quite a time to manually, match the agreements and cost with sales leading to delayed vendor settlements. Which is effecting our vendor relations.
+
+CFO: In addition to what Mr. CEO has asked. I would want you to also build a Cost analysis summary which I could use to manage vendor payments.
+
+GI: Fair enough, we can do that. Can you add some perspective as to what kind of output are you lookin for?
+
+CFO: Well simply put, on a monthly basis I would like to see the following information -- Units Sold, Sales, Price, Cost (As per contract rate), Volume Discount and the net payable to the vendor, which is Total Cost - Total Volume discount.
+
+CFO: Additionally, it would be great if i could see the information by product, category, etc.. you see the relevant cuts.... Is it possible?
+
+GI: Yes, it is.. Is there anything else on the Cost and Margin Analysis?
+
+CEO: For now lets just focus on getting us this much on Cost and Margin Analysis. I would love to see if you could build additional relevant insights from the data sets.
+
+GI: Well, we will have a look at the data and come back.. I am sure we can draw something interesting for you and your team.
+
+CEO: Great, lets move on to the next requirement.. This is related to our marketing efforts.
+
+GI: Yes, all ears!!
+
+CEO: As a D2C BPC brand we are focus heavily on performance marketing as a channel to generate sales. We have been primarily leveraging perf. campaigns using largely Youtube and Meta as out advertisement medium. However, we are playing dark here, in last 7 month we must have spent roughly INR 40 to 45 lac on perf. Our sales have been great but we have not been able to attribute these adSpent to our sales. 
+
+CEO: We gearing up for the next round of funding. However, we do not have proper KPIs and metrics on our marketing efforts in place. Our current Investors have been on us to share more granular details on how is our marketing/campaign performing? Which medium and ad platforms are working well for us? What is our category returns on ad investments? etc.
+
+CMO: Allow me to add more context to our ad spending and data around it. 
+
+CMO: We run adds primarily on Google and Meta Platforms. On Google we run campaigns on Search, CTV and Youtube -- let's call them channels. On Meta we have 2 channels FB and Insta. We have been deploying category specific campaign to be run on different platforms and channel. We try to cover all our categories each month with at least one campaign.
+
+GI: What do you mean by CTV? and do you have new campaign every month?
+
+CMO: CTV refers to Connected TV. YouTube played from Smart TVs are called CTV.
+
+CMO: Not necessary, while we do try to bring in newness, some times depending on the quality of our campaigns, its creative and development budget, we do re-run the same campaign. For. Example, We ran our "Smooth Legs Ready Now" campaign for targeting customers for our body care categories for March, May and July this year. 
+
+CMO: The challenge is that our agency share us campaign level ad performance. But the information is in such a crude form that it take ages for our team to clean and process the details.
+
+CMO: Currently our ad budget and creatives cost is the decision point to decide if we want to run the same ad campaign or change. We would love to have campaign x channel performance insights built into the dashboard. 
+
+CMO: Additionally, we would want our dashboard bring out Ads performance funnel. This would help us evaluate performance levels of our campaigns by each category.
+
+GI: Just for clarity, do you attribute all of you sales to the perf marketing?
+
+CMO: Well that a very valid question, at the movement give limit information we do attribute 100% of our sales to our performance marketing campaigns. However, It would be super helpful, if some how in the dashboard, you could also give us the capabilities to dynamically apply sales attribution.
+
+GI: Yes, we can... Is there any thing more on the Marketing piece?
+
+CMO: Well, given the data we could do more, but i will leave up to you to come up with impactful insights!!
+
+GI: Sure, that's a challenge we like to take. Well, Mr. CEO you mentioned about 3 problems in addition to sales reporting --- Cost Analysis and Marketing. What is the next one?
+
+CEO: Well Mr. GI, there is one more very critical pain point. However, I would like to see how close you come up with our expected outcome with the challenges we have discussed so far. Why don't you submit your Power BI model, If it clear our expectations  we will connect again for the next round of challenge.
+
+GI: That's a fair ask. 
+
+CEO: Let me clearly outline our expectation Mr. GI. We are not looking for just the cookie cutter approach or to use Power BI to do some fancy visuals with a bunch of filter with same information in multiple cuts or give us just the table dumps that makes us scratch our heads. We need the solution to enable:
+1. Clear Flow of Information on the dashboard
+2. Should be scalable
+3. Industry and function relevant KPIs and metrics
+4. Dynamicity with respect to calculations and metrics
+5. Well structured solutions for further built up.
+
+CEO: And more more thing... Since you like challenges.. Can you come up with an Executive Dashboard that I could take to my Investor Committee... I would love to replace my PPT with your Power BI Dashboard to present and answer my investors questions on our business performance.
+
+CEO: And if you clear this Phase 1 we will award you the project for Phase 2 evaluation and if you clear that as well. We will have you onboard as our preferred BI Consultant.
+
+CFO: Mr. GI, my associate will help you with relevant datasets. The transcript of this meeting will form the basis our our scope, requirement and details for building the model.
+
+Assistant: Hello Mr. GI. Below are the information set needed for building out the solution:
+
+Sales Data:
+- You will find the sales details in Sales Data folder. 
+- The folder contain 2 sub-folders and a excel file. 
+- In folder D2C, i have our ERP downloads for D2C direct Website channel
+- Folder DCart is where i have placed all the files we received from the marketplace. Note that this channel has 2 sub channels each file contains a tab for Scheduled and Quick Commerce orders and deliveries.
+- Nile_Sales_YTD.xlsx has historical sales data from Nile marketplace platform.
+Additional Information:
+- Product and Cost Details.xlsx
+- Performance Marketing Ad Spends Budget.xlsx
+- Ad_Campaign_Data.csv
